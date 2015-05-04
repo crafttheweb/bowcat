@@ -85,7 +85,7 @@ function concatPackage (pack, outDir, minified) {
   if (_.contains(concatedPkgs, path.basename(pack))) return;
 
   var regularJSON = JSON.parse(
-    fs.readFileSync(path.join(pack, 'bower.json'))
+    fs.readFileSync(path.join(pack, '.bower.json'))
   );
   var bowerJSON = json.normalize(regularJSON);
   var deps = bowerJSON.dependencies || {};
