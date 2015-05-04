@@ -1,5 +1,5 @@
 {
-  "name": "bowcat",
+  "name": "bowcat-fold",
   "version": "0.0.32",
   "description": "Quickly concatenate bower dependencies",
   "main": "./bowcat.js",
